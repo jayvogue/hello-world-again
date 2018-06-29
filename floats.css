@@ -1,0 +1,71 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: Roboto, sans-serif;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    font-family: "Roboto Slab", sans-serif;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Add styling to recreate the layout on the screen */
+  
+  section::after {content: ""; 
+    display: block;
+    clear: both;
+  }
+  
+  #sidebar {
+      float: left;
+      background-color: honeydew;
+      width: 20%;
+      height: 200px;
+  }
+  
+  #largeContent {
+      background-color: lightblue;
+      float: right;
+      width: 80%;
+      height: 200px;
+  }
+  
+  #left { background-color: rgb(68, 72, 74);
+    .box {
+        height: 500px;
+        float: left;
+        width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+        
+  }
+  
+  #middle {background-color:rgb(112, 127, 134);
+    .box {
+        width: 33.33%;
+  }
+  
+  #right { background-color: rgb(68, 72, 74);
+    .box {
+        float: left;
+        width: 33.33%;
+  }
+  
+  footer { color: grey; background-color: rgb(68, 72, 74);
+    .box {
+        
+        width: 100%;
+  }

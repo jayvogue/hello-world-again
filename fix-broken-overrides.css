@@ -1,0 +1,29 @@
+.btn{ 
+    font-family: cursive;
+    color: white;
+    margin: 3%;
+    width: 300px;
+    border: 5px dashed rgb(238, 20, 180);
+    padding: 25px;
+    margin: 25px;
+}
+    .btn-primary:hover{
+        background-color: blueviolet;
+        color: gold;
+        border: 1px dashed;
+    }
+
+    .btn-primary:ACTIVE{
+        background-color: LIGHTblue;
+        color: darkblue;
+        border: solid;
+    }
+    
+    body {
+        background-image: url("image/2720841.jpg");
+    }
+   p , p.lead{
+       font-weight: bold;
+       color: darkturquoise;
+   }
+   
